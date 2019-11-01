@@ -300,3 +300,10 @@ nav a {
     text-decoration: none;
     margin: auto;
 }
+
+/* This is the CSS code for the About page */
+
+
+.about-button {
+    background-color: white;
+}
