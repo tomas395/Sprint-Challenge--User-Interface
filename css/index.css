@@ -317,8 +317,6 @@ nav a {
 
 .container-about-page {}
 
-.about-logo {}
-
 .about-button {
     background-color: white;
     padding: 6px 18px;
@@ -332,7 +330,6 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
-
-
+.l-column-pic {}
 
 .r-column-pic {}
