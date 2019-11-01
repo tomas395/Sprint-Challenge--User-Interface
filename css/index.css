@@ -301,9 +301,22 @@ nav a {
     margin: auto;
 }
 
+.top-content {}
+
 /* This is the CSS code for the About page */
 
 
 .about-button {
     background-color: white;
+    padding: 6px 18px;
+    border-radius: 6px;
+    border: 2px solid black;
+
+}
+
+
+.about-border {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
