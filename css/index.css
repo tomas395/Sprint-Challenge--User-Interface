@@ -314,11 +314,6 @@ nav a {
 
 /* This is the CSS code for the About page */
 
-.about-nav {
-    display: flex;
-    height: 60px;
-    justify-content: space-between;
-}
 
 .container-about-page {}
 
@@ -338,6 +333,6 @@ nav a {
 }
 
 
-.l-column-pic {}
+
 
 .r-column-pic {}
