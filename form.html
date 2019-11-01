@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Basic Contact Form</title>
+  <style>
+    fieldset {
+      border: solid;
+      border-color: yellow;
+      background-color: lightyellow;
+      margin-bottom: 10px;
+      width: 720px;
+      border-width: 10px;
+    }
+
+    .label {
+      width: 180px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    label:hover {
+      font-size: 40px;
+    }
+
+    .center {
+      width: auto;
+    }
+
+    .box_radio {
+      width: auto;
+    }
+
+    .space {
+      margin-bottom: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Please Enter Your Details!</h1>
+
+  <!-- i dont have a backend server yet -->
+  <form action="about:blank" method="POST">
+
+    <fieldset>
+      <legend>Your Contact Information</legend>
+      <label class="center" for="name">Name: </label>
+      <input type="text" name="name" id="name" placeholder="Your name" required />
+      <br />
+
+      <label class="center">Email:</label><input type="text" name="email" id="email" required /> <br />
+      <label class="center">Mobile:</label><input type="tel" name="mobile" id="mobile" />
+      <br />
+      <label class="center">Address:</label><textarea rows="3" cols="30" name="address" id="address"></textarea>
+      <br />
+      Which Country:
+      <select>
+        <option value="United States">United States</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Japan">Japan</option>
+        <option value="Canada">Canada</option>
+        <option value="Turkey">Turkey</option>
+        <option value="No Selection">No Selection</option>
+      </select>
+      <br />
+      Method to contact you: Email
+      <input type="checkbox" name="contact method1" id="contact method1" value="email" />
+      Snail Mail
+      <input type="checkbox" name="contact method2" id="contact method2" value="snailmail" />
+      Telephone
+      <input type="checkbox" name="contact method3" id="contact method3" value="telephone" />
+    </fieldset>
+    <br />
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+
+</html>
